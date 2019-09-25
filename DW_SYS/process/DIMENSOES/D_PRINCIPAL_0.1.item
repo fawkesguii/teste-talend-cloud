@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="PRODUCAO" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="PRODUCAO">
+    <contextParameter comment="" name="CRM_DB_HOST" prompt="CRM_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="191.232.177.102"/>
+    <contextParameter comment="" name="CRM_DB_NAME" prompt="CRM_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bild_crm"/>
+    <contextParameter comment="" name="CRM_DB_PORT" prompt="CRM_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="CRM_DB_PSWD" prompt="CRM_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="kVQuSB7viWo/XFxePeq/wg=="/>
+    <contextParameter comment="" name="CRM_DB_USER" prompt="CRM_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="talend"/>
+    <contextParameter comment="" name="DW_DB_HOST" prompt="DW_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bild-asqldb-dw01.database.windows.net"/>
+    <contextParameter comment="" name="DW_DB_NAME" prompt="DW_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="DW_PRD"/>
+    <contextParameter comment="" name="DW_DB_PORT" prompt="DW_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="1433"/>
+    <contextParameter comment="" name="DW_DB_PSWD" prompt="DW_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="dBTiMD9hkbRIBPT6FMQyqntpJ8uJ21b+"/>
+    <contextParameter comment="" name="DW_DB_USER" prompt="DW_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bildTalend"/>
+    <contextParameter comment="" name="LOG_DB_HOST" prompt="LOG_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bild-asqldb-dw01.database.windows.net"/>
+    <contextParameter comment="" name="LOG_DB_NAME" prompt="LOG_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="DW_PRD"/>
+    <contextParameter comment="" name="LOG_DB_PORT" prompt="LOG_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="1433"/>
+    <contextParameter comment="" name="LOG_DB_PSWD" prompt="LOG_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="dBTiMD9hkbRIBPT6FMQyqntpJ8uJ21b+"/>
+    <contextParameter comment="" name="LOG_DB_SCHEMA" prompt="LOG_DB_SCHEMA?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="DWControle"/>
+    <contextParameter comment="" name="LOG_DB_USER" prompt="LOG_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bildTalend"/>
+    <contextParameter comment="" name="SYS_DB_HOST" prompt="SYS_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="191.232.177.102"/>
+    <contextParameter comment="" name="SYS_DB_NAME" prompt="SYS_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bild_vendas"/>
+    <contextParameter comment="" name="SYS_DB_PORT" prompt="SYS_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="SYS_DB_PSWD" prompt="SYS_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="kVQuSB7viWo/XFxePeq/wg=="/>
+    <contextParameter comment="" name="SYS_DB_USER" prompt="SYS_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="talend"/>
+  </context>
+  <context confirmationNeeded="false" name="HOMOLOGACAO">
+    <contextParameter comment="" name="CRM_DB_HOST" prompt="CRM_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="191.232.164.161"/>
+    <contextParameter comment="" name="CRM_DB_NAME" prompt="CRM_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bild_crm"/>
+    <contextParameter comment="" name="CRM_DB_PORT" prompt="CRM_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="CRM_DB_PSWD" prompt="CRM_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="32jJ4fcQRYY="/>
+    <contextParameter comment="" name="CRM_DB_USER" prompt="CRM_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="dwintegracao"/>
+    <contextParameter comment="" name="DW_DB_HOST" prompt="DW_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="Bild-BIDEV02"/>
+    <contextParameter comment="" name="DW_DB_NAME" prompt="DW_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="DW_HML"/>
+    <contextParameter comment="" name="DW_DB_PORT" prompt="DW_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="1433"/>
+    <contextParameter comment="" name="DW_DB_PSWD" prompt="DW_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="dBTiMD9hkbRIBPT6FMQyqntpJ8uJ21b+"/>
+    <contextParameter comment="" name="DW_DB_USER" prompt="DW_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bildTalend"/>
+    <contextParameter comment="" name="LOG_DB_HOST" prompt="LOG_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="Bild-BIDEV02"/>
+    <contextParameter comment="" name="LOG_DB_NAME" prompt="LOG_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="DW_HML"/>
+    <contextParameter comment="" name="LOG_DB_PORT" prompt="LOG_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="1433"/>
+    <contextParameter comment="" name="LOG_DB_PSWD" prompt="LOG_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="dBTiMD9hkbRIBPT6FMQyqntpJ8uJ21b+"/>
+    <contextParameter comment="" name="LOG_DB_SCHEMA" prompt="LOG_DB_SCHEMA?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="DWControle"/>
+    <contextParameter comment="" name="LOG_DB_USER" prompt="LOG_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bildTalend"/>
+    <contextParameter comment="" name="SYS_DB_HOST" prompt="SYS_DB_HOST?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="191.232.164.161"/>
+    <contextParameter comment="" name="SYS_DB_NAME" prompt="SYS_DB_NAME?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="bild_vendas"/>
+    <contextParameter comment="" name="SYS_DB_PORT" prompt="SYS_DB_PORT?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="SYS_DB_PSWD" prompt="SYS_DB_PSWD?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_Password" value="kVQuSB7viWo/XFxePeq/wg=="/>
+    <contextParameter comment="" name="SYS_DB_USER" prompt="SYS_DB_USER?" promptNeeded="false" repositoryContextId="_CB32UO3yEeidhpr1DTf7XQ" type="id_String" value="talend"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/juliano.martins/Downloads/talend/TOS_DI-20180411_1414-V7.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_-7vUcAqQEem1v9KB0D_HgA" name="DataOperation"/>
+    <routinesParameter id="_-_NfMAqQEem1v9KB0D_HgA" name="Mathematical"/>
+    <routinesParameter id="_-_RwoAqQEem1v9KB0D_HgA" name="Numeric"/>
+    <routinesParameter id="_-_Uz8AqQEem1v9KB0D_HgA" name="Relational"/>
+    <routinesParameter id="_-_X3QAqQEem1v9KB0D_HgA" name="StringHandling"/>
+    <routinesParameter id="_-_cIsAqQEem1v9KB0D_HgA" name="TalendDataGenerator"/>
+    <routinesParameter id="_-_gaIAqQEem1v9KB0D_HgA" name="TalendDate"/>
+    <routinesParameter id="_-_oV8AqQEem1v9KB0D_HgA" name="TalendStringUtil"/>
+    <routinesParameter id="_-_kEgAqQEem1v9KB0D_HgA" name="TalendString"/>
+  </parameters>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SYS_D_CIDADE"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="PRODUCAO"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_h_JLMArxEemsL-ugs0K9hQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SYS_D_ESTADO"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="PRODUCAO"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_8uu2cAr1EemsL-ugs0K9hQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SYS_D_ESTADO_CIVIL"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="PRODUCAO"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_8wemoAtoEemsL-ugs0K9hQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;+------------------------------------------------------------------------+&quot;);&#10;System.out.println(&quot;|INICIO: D_PRINCIPAL                               :&quot; + TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) + &quot;  |&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;|FIM   : D_PRINCIPAL                               :&quot; + TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) + &quot;  |&quot;);&#10;System.out.println(&quot;+------------------------------------------------------------------------+&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_40766927-b1d1-40a9-be8a-384861559d93"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LB4ZJ+7Rp/cWT5kItQ2uTRVj2RsX+HeiVQWmKseGaQGHb00lgRUReFHewsWI347GK4gltBq4FZxX
+QnyZMJGV0A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dae9c1f9-e227-4da5-96fd-f643673683a3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GpYEBLZDxgnwUZk6rwDpxG7pu9GjIh/V/kN5wvy/lBZ2ub34VDb3OdQVW33DTH2qMVj75M77c+U5
++xfpvWeYAA==</DigestValue></Reference></SignedInfo><SignatureValue>V5WmQrBArtJXo3jP+XoE3Emys0lQMXqCgSNueZ8XouyPbbG7C+1rAfxAcrU+JoJZs+KuSoIhvwCC
+GXeZT7WzbcakGI6jJuPyHZqGcKqeMmIA59di4oxgNIQm6b0wWayl4adrlfS74JjNvKVnhA2AurAK
+LtNZH20T/Isv4qSGf6X5UsJzeC5YXAvRDkuGyljAKXigK0yYl1HJM4r1iwA+3FpC+OPFKaNUL5lD
+jJr/vRNWPDolWIqylOngeIUmwSaPJojKhwFClNUDXI480suVdsrLUa6Paj4wzT6/m5b6ekWwtojS
+mxqLB2pjYSFdaKi85h8Pw2iCb1sAZJKdfkekaw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dae9c1f9-e227-4da5-96fd-f643673683a3" Target="#_40766927-b1d1-40a9-be8a-384861559d93"><Timestamp>2019-09-25 21:07:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
